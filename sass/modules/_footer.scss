@@ -1,5 +1,46 @@
 .mainFooter {
-    background-color: red;
+    background-color: #c1b9b9;
     width: 100%;
-    height: 400px;
+    height: 200px;
+}
+
+.footerList{
+    padding-top: 50px;
+    padding-right: 25px;
+    float: right;
+    li{
+        text-align: left;
+    }
+    a{
+        color: white;
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+
+@include desktop {
+
+    .mainFooter {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footerList{
+        align-self: center;
+        li{
+            display: inline;
+            list-style-type: none;
+            margin-right: 30px;
+            padding-bottom: 5px;
+            a{
+                text-decoration: none;
+                color: white;
+                font-size: 16px;
+                line-height: 100px;
+            }
+        }
+    }
+
+
 }
