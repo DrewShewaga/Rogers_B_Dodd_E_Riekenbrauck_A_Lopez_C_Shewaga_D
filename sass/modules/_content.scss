@@ -7,8 +7,19 @@
 
 .heroImg {
     height: 840px;
-    background-color: #333;
+    background-color: #fff;
     flex: 1;
+    text-align: center;
+}
+
+.buyNow {
+  margin-top: 30%;
+  background-color: $offWhite;
+  border: 4px $grey solid;
+  width: 14%;
+  height: 6%;
+  border-radius: 14px;
+  color: $grey;
 }
 
 .aboutProd {
@@ -47,6 +58,7 @@
     .heroImg {
         flex: 2;
         flex-basis: 100%;
+        margin-top: 95px;
     }
 
     .aboutProd {
