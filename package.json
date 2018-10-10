@@ -1,0 +1,22 @@
+{
+  "name": "rogers_b_dodd_e_riekenbrauck_a_lopez_c_shewaga_d",
+  "version": "1.0.0",
+  "description": "HouseCom ThermoSecure System",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DrewShewaga/Rogers_B_Dodd_E_Riekenbrauck_A_Lopez_C_Shewaga_D.git"
+  },
+  "author": "b.rogers d.shewaga e.dodd c.lopez e.riekenbrauck\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[a",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DrewShewaga/Rogers_B_Dodd_E_Riekenbrauck_A_Lopez_C_Shewaga_D/issues"
+  },
+  "homepage": "https://github.com/DrewShewaga/Rogers_B_Dodd_E_Riekenbrauck_A_Lopez_C_Shewaga_D#readme",
+  "dependencies": {
+    "aos": "^2.3.4"
+  }
+}
