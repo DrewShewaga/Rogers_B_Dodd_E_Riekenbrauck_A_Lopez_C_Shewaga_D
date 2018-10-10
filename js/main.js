@@ -53,14 +53,14 @@ function getResults() {
 
 	  	// THIS IS THE NAME OF OUR PRODUCT
 	  	// SELECT THE PROPER QUERY WHEN ITS AVAILABLE
-	    // document.querySelector(".heroHeader").textContent = item.product_name;
+	    document.querySelector(".heroHeader").textContent = item.product_name;
 	    // console.log(item.product_name);
 
 	    // every Linked Table needs to be accsessed via another Loop, due to how Pan 
 	    item.product_desc.forEach(desc => {
 	    	// THIS IS THE DESCRIPTION OF OUR PRODUCT
 		  	// SELECT THE PROPER QUERY WHEN ITS AVAILABLE
-			// document.querySelector(".heroDesc").textContent = desc.product_desc;
+			 document.querySelector(".heroDesc").textContent = desc.product_desc;
 			// console.log(desc.product_desc);
         });
 
