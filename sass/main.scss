@@ -1,6 +1,8 @@
 @import 'modules/vars';
+@import 'modules/_mixins';
 @import 'modules/_header';
 @import 'modules/_content';
+@import 'modules/_footer';
 
 .hidden {
     display: none;

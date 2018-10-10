@@ -1,4 +1,7 @@
-
+.mainHeader {
+    position: fixed;
+    width: 100%;
+}
 
 
 .navIcon {
@@ -19,4 +22,27 @@
 
 .navList {
     background-color: #999;
+}
+
+
+
+
+
+
+@include desktop {
+    .mainHeader {
+        background-color: #aaa;
+        height: 94px;
+    } 
+
+    .navIcon {
+        display: none;
+    }
+
+    .navList {
+        display: flex !important;
+        width: 50%;
+        justify-content: space-between;
+        float: right;
+    }
 }
