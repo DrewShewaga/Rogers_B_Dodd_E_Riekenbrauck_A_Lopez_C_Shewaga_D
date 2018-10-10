@@ -7,7 +7,7 @@
 }
 
 .heroImg {
-    height: 840px;
+    height: 750px;
     background-color: #fff;
     flex: 1;
     text-align: center;
@@ -16,6 +16,7 @@
     background-size: cover;
     background-position: center;
 }
+
 
 .buyNow {
   margin-top: 30%;
@@ -53,7 +54,7 @@
 
 .intro {
     font-size: 1em;
-    margin-top: 60vw;
+    margin-top: 0vw;
     margin-bottom: 25px;
     color: $offWhite;
 }
@@ -80,6 +81,21 @@
     padding-bottom: 4em;
 }
 
+.ui {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+    h3 {
+        text-align: center;
+    }
+}
 
 
 
@@ -134,6 +150,8 @@
         flex-basis: 100%;
         width: 100%;
     }
+
+
 
 
 
