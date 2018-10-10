@@ -29,8 +29,16 @@
 
 .aboutProd {
     flex: 1;
-    background-color: #666;
+    background-color: white;
     height: 841px;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    h2 {
+        padding-bottom: 20px;
+    }
+    h2, h3 {
+        text-align: center;
+    }
 }
 
 .aboutImg {
@@ -66,8 +74,10 @@
 
 .design {
     flex: 1;
-    background-color: #666;
-    height: 840px;
+    background-color: white;
+    height: 841px;
+    padding-top: 4em;
+    padding-bottom: 4em;
 }
 
 
@@ -88,8 +98,16 @@
     }
 
     .aboutProd {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
         flex-basis: 50%;
         width: 50%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        height: auto;
+        line-height: 2.5em;
     }
 
     .aboutImg {
