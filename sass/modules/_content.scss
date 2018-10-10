@@ -1,0 +1,39 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    z-index: -1;
+}
+
+.heroImg {
+    height: 840px;
+    background-color: #333;
+    flex: 1;
+}
+
+.aboutProd {
+    flex: 1;
+    background-color: #666;
+    height: 841px;
+}
+
+.aboutImg {
+    flex: 1;
+    background-color: #999;
+    height: 840px;
+}
+
+.prodFeat {
+    flex: 1;
+    background-color: #333;
+    height: 840px;
+}
+
+.design {
+    flex: 1;
+    background-color: #666;
+    height: 840px;
+}
+

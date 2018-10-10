@@ -1,0 +1,21 @@
+
+
+.navIcon {
+    position: absolute;
+    right: 18px;
+    top: 16px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.navIcon div {
+    width: 25px;
+    height: 4px;
+    border-radius: 3px;
+    background-color: #666;
+    margin-bottom: 6px;
+}
+
+.navList {
+    background-color: #999;
+}

@@ -1,5 +1,15 @@
 @import 'modules/vars';
+@import 'modules/_header';
+@import 'modules/_content';
 
 .hidden {
     display: none;
+}
+
+body{
+    background-color: red;
+}
+
+.panel{
+    margin-bottom: 200px;
 }
