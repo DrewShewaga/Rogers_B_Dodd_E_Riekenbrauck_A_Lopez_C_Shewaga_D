@@ -70,14 +70,17 @@
     flex: 1;
     background-color: #333;
     height: 840px;
+    color: $offWhite;
 }
 
 .design {
     flex: 1;
     background-color: white;
-    height: 841px;
-    padding-top: 4em;
-    padding-bottom: 4em;
+    height: 840px;
+    background-image: url("../images/watch.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 
@@ -130,12 +133,14 @@
     }
 
     .prodFeat {
-        flex: 2;
-        flex-basis: 100%;
-        width: 100%;
+        flex-basis: 50%;
+        width: 50%;
     }
 
-
+    .design {
+        flex-basis: 50%;
+        width: 50%;
+    }
 
 }
 
