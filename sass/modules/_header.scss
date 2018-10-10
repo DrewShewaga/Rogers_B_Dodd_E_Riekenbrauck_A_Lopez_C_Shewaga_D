@@ -4,6 +4,9 @@
     width: 100%;
 }
 
+.mainNav {
+    overflow: hidden;
+}
 
 .navIcon {
     position: absolute;
@@ -27,7 +30,25 @@
     color: #727171;
 }
 
+.navList {
+    position: fixed;
+    top: -250px;
+    // margin-top: -200px;
+    transition: all 1.5s ease;
 
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+.navList li {
+    margin-top: 16px;
+}
+
+.moveNav {
+    display: block;
+    top: -20px;
+}
 
 
 
