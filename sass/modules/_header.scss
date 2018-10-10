@@ -4,8 +4,15 @@
     width: 100%;
 }
 
+
 .mainNav {
     overflow: hidden;
+}
+
+.mainLogo {
+    height: 40px;
+    margin-top: 8px;
+    margin-left: 12px;
 }
 
 .navIcon {
@@ -62,6 +69,12 @@
         border-bottom: 1px solid #727171;
     } 
 
+    .mainLogo {
+        height: 54px;
+        margin-top: 14px;
+        margin-left: 20px;
+    }
+
     .navIcon {
         display: none;
     }
@@ -72,6 +85,6 @@
         justify-content: space-between;
         float: right;
         margin-right: 4%;
-        margin-top: 20px;
+        margin-top: -30px;
     }
 }
