@@ -6,27 +6,24 @@ class Product {
     // Note: update table names, column names in here
     public $product_table                          = 'tbl_product';
 
-    public $product_table_primary_key              = 'ID';
+    public $product_table_primary_key              = 'id';
 
-    public $color_table                            = 'tbl_color';
+    public $desc_table                             = 'tbl_desc';
 
-    public $color_table_primary_key                = 'ID';
+    public $desc_table_primary_key                 = 'id';
 
-    public $linking_table                          = 'tbl_product_color';
+    public $linking_table                          = 'tbl_product_desc';
 
     public $linking_table_ref_product_table_column = 'product_id';
 
-    public $linking_table_ref_color_table_column   = 'color_id';
+    public $linking_table_ref_desc_table_column    = 'desc_id';
+
 
     public function __construct($db) {
         $this->conn = $db;
     }
 
     function getProducts() {
-        // Notes:
-        // 1. If you configure above properly, you shouldn't need to modify the query here to make it work
-        // 2. However, feel free to modify it if you know what you are doing.
-
         $query = 'SELECT * FROM ' . $this->product_table;
 
         // prepare query statement
@@ -38,13 +35,9 @@ class Product {
         return $stmt;
     }
 
-    function getProductColors($product_id) {
-        // Notes:
-        // 1. If you configure above properly, you shouldn't need to modify the query here to make it work
-        // 2. However, feel free to modify it if you know what you are doing.
-
-        $query = 'SELECT color.* FROM ' . $this->linking_table . ' AS linking, ' . $this->color_table . ' AS color';
-        $query .= ' WHERE color.' . $this->color_table_primary_key . ' = linking.' . $this->linking_table_ref_color_table_column;
+    function getProductDescs($product_id) {
+        $query = 'SELECT desc_id.* FROM ' . $this->linking_table . ' AS linking, ' . $this->desc_table . ' AS desc_id';
+        $query .= ' WHERE desc_id.' . $this->desc_table_primary_key . ' = linking.' . $this->linking_table_ref_desc_table_column;
         $query .= ' AND linking.' . $this->linking_table_ref_product_table_column . ' = ' . $product_id;
 
         // prepare query statement

@@ -27,14 +27,14 @@ if ($num > 0) {
     while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
         $single_product = $row;
         $product_id     = $single_product[$product->product_table_primary_key];
-        $colors_stmt    = $product->getProductColors($product_id);
-        $colors         = array();
-        while ($color_row = $colors_stmt->fetch(PDO::FETCH_ASSOC)) {
-            $colors[] = $color_row;
+        $descs_stmt     = $product->getProductDescs($product_id);
+        $descs          = array();
+        while ($desc_row = $descs_stmt->fetch(PDO::FETCH_ASSOC)) {
+            $descs[] = $desc_row;
         }
 
         //Note: you might need update the node key from `colors` to other name
-        $single_product['colors'] = $colors;
+        $single_product['product_desc']  = $descs;
         $results[]                = $single_product;
     }
 
