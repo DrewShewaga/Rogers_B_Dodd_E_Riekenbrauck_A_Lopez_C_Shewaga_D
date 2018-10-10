@@ -40,7 +40,7 @@
   top: -250px;
   transition: all 1.5s ease;
   padding: 20px;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .navList li {
@@ -49,7 +49,7 @@
 
 .moveNav {
   display: block;
-  top: -20px;
+  top: 20px;
 }
 
 @media screen and (min-width: 800px) {
@@ -87,7 +87,7 @@
 }
 
 .heroImg {
-  height: 840px;
+  height: 750px;
   background-color: #fff;
   flex: 1;
   text-align: center;
@@ -133,7 +133,7 @@
 
 .intro {
   font-size: 1em;
-  margin-top: 60vw;
+  margin-top: 0vw;
   margin-bottom: 25px;
   color: #fafafa;
 }
@@ -158,6 +158,22 @@
   height: 841px;
   padding-top: 4em;
   padding-bottom: 4em;
+}
+
+.ui {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 100%;
+}
+.ui img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.ui h3 {
+  text-align: center;
 }
 
 @media screen and (min-width: 800px) {
