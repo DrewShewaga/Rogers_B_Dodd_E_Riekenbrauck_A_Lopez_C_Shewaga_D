@@ -1,4 +1,9 @@
 
+.mainHeader {
+    position: fixed;
+    width: 100%;
+}
+
 
 .navIcon {
     position: absolute;
@@ -16,6 +21,36 @@
     margin-bottom: 6px;
 }
 
-.navList {
-    background-color: #999;
+.navLink {
+    text-transform: uppercase;
+    font-family: Objectivity-Regular;
+    color: #727171;
+}
+
+
+
+
+
+
+
+
+@include desktop {
+    .mainHeader {
+        background-color: $offWhite;
+        height: 94px;
+        border-bottom: 1px solid #727171;
+    } 
+
+    .navIcon {
+        display: none;
+    }
+
+    .navList {
+        display: flex !important;
+        width: 42%;
+        justify-content: space-between;
+        float: right;
+        margin-right: 4%;
+        margin-top: 20px;
+    }
 }

@@ -1,16 +1,25 @@
 .content {
     display: flex;
     flex-direction: column;
-    position: absolute;
     width: 100%;
-    top: 0px;
     z-index: -1;
 }
 
 .heroImg {
     height: 840px;
-    background-color: #333;
+    background-color: #fff;
     flex: 1;
+    text-align: center;
+}
+
+.buyNow {
+  margin-top: 30%;
+  background-color: $offWhite;
+  border: 4px $grey solid;
+  width: 14%;
+  height: 6%;
+  border-radius: 14px;
+  color: $grey;
 }
 
 .aboutProd {
@@ -35,5 +44,38 @@
     flex: 1;
     background-color: #666;
     height: 840px;
+}
+
+
+
+
+
+@include desktop {
+    .content {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .heroImg {
+        flex: 2;
+        flex-basis: 100%;
+        margin-top: 95px;
+    }
+
+    .aboutProd {
+        flex-basis: 50%;
+    }
+
+    .aboutImg {
+        flex-basis: 50%;
+    }
+
+    .prodFeat {
+        flex: 2;
+        flex-basis: 100%;
+    }
+
+
+
 }
 
