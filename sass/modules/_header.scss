@@ -40,9 +40,7 @@
 .navList {
     position: fixed;
     top: -250px;
-    // margin-top: -200px;
     transition: all 1.5s ease;
-
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.5);
 }
@@ -85,11 +83,9 @@
         justify-content: space-between;
         float: right;
         margin-right: 4%;
-        margin-top: -30px;
+        top: 0;
+        background: none;
+        right: 0%;
     }
-    
-
-
-
 
 }
