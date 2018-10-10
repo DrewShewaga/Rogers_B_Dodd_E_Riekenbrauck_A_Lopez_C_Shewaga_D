@@ -18,14 +18,11 @@
     }
 }
 
-
 @include desktop {
-
     .mainFooter {
         display: flex;
         flex-direction: column;
     }
-
     .footerList{
         align-self: center;
         li{
@@ -41,6 +38,5 @@
             }
         }
     }
-
 
 }
