@@ -1,17 +1,2 @@
-@charset "utf-8";
-/* CSS Document */
-
-/*this class will hide elements on our page*/
-.hidden
-{
-		display: none;
-}
-
-.clearfix:after
-{
-	content: " ";
-	visibility: hidden;
-	display: block;
-	height: 0;
-	clear: both;
-}
+.hidden{display:none}
+/*# sourceMappingURL=main.css.map */
