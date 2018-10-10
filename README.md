@@ -35,6 +35,14 @@ AnimateOnScroll
 MagicScroll
 ScrollReveal
 
+### The Team
+
+- Ethan Dodd : Dev / Project Manager
+- Drew Shewaga : Dev / Front End
+- Brendan Rogers : Dev / Back End
+- Christine Lopez : Design
+- Aiden Reickenbrauck : 3D Production
+
 ### Acknowledgments
 
 LIBRARIES

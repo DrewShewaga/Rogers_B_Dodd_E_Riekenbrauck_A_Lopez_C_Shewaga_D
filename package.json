@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/DrewShewaga/Rogers_B_Dodd_E_Riekenbrauck_A_Lopez_C_Shewaga_D#readme",
   "dependencies": {
-    "aos": "^2.3.4"
+    "aos": "^2.3.4",
+    "scrollmagic": "^2.0.6",
+    "scrollreveal": "^4.0.4"
   }
 }

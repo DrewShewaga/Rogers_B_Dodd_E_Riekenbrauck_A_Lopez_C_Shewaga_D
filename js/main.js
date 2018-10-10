@@ -8,12 +8,10 @@ let navIcon = document.querySelector('.navIcon'),
 
 //FUNCTIONS
 function toggleMenu() {
-    if (navList.classList.value == 'navList hidden') {
-        navList.classList.remove('hidden');
-    }
-    else {
-        navList.classList.add('hidden');
-    }
+
+    navList.classList.toggle("moveNav");
+
+
 }
 
     
