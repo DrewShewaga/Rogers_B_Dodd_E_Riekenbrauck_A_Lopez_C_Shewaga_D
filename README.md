@@ -30,6 +30,11 @@ Step Four: the database is working if the first screen shows the name and descri
 
 ### DEPENDANCIES
 
+NPM
+AnimateOnScroll
+MagicScroll
+ScrollReveal
+
 ### Acknowledgments
 
 LIBRARIES
