@@ -3,6 +3,7 @@
     flex-direction: column;
     width: 100%;
     z-index: -1;
+    font-family: Objectivity-Regular, sans-serif;
 }
 
 .heroImg {
@@ -30,8 +31,27 @@
 
 .aboutImg {
     flex: 1;
-    background-color: #999;
     height: 840px;
+    background-image: url("../images/aboutMobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.intro {
+    font-size: 1em;
+    margin-top: 60vw;
+    margin-bottom: 25px;
+    color: $offWhite;
+}
+
+.imgDesc {
+    width: 300px;
+    margin: 0 auto;
+    color: $offWhite;
+    line-height: 2em;
+    font-size: .95em;
 }
 
 .prodFeat {
@@ -59,20 +79,38 @@
     .heroImg {
         flex: 2;
         flex-basis: 100%;
+        width: 100%;
         margin-top: 95px;
     }
 
     .aboutProd {
         flex-basis: 50%;
+        width: 50%;
     }
 
     .aboutImg {
         flex-basis: 50%;
+        width: 50%;
+        height: 841px;
+        background-image: url("../images/about.png");
+    }
+
+    .intro {
+        margin-top: 25vw;
+    }
+    
+    .imgDesc {
+        width: 300px;
+        margin: 0 auto;
+        color: $offWhite;
+        line-height: 2em;
+        font-size: .95em;
     }
 
     .prodFeat {
         flex: 2;
         flex-basis: 100%;
+        width: 100%;
     }
 
 
